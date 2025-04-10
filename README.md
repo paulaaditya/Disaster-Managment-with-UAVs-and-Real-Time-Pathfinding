@@ -1,4 +1,4 @@
-# Road-Aware Navigation via Aerial Imagery and Object Detection
+# Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding
 
 This project focuses on **autonomous navigation using aerial imagery**, combining **object detection** and **semantic segmentation** to generate road-aware paths while avoiding obstacles such as humans. The approach uses:
 
