@@ -86,29 +86,19 @@ Training and inference were performed on the following hardware:
 
 ### 1. **Training**
 
-```bash
-# Train segmentation model
-yolo segment train data=data/road.yaml model=yolov8n-seg.pt imgsz=1024 epochs=100
-
-# Train object detection model
-yolo detect train data=data/hit.yaml model=yolov8n.pt imgsz=640 epochs=100
-```
+run yolo-segmentation-train.ipynb
 
 ### 2. **Convert Road Masks to YOLO Format**
 
-```bash
-python convert_masks_to_yolo.py --input path/to/masks --output path/to/labels
-```
+run convert-masks-to-yolo.py
 
 > Make sure `road` class is index 0 in your segmentation mask and that colors are converted accurately.
 
 ### 3. **Pathfinding Pipeline**
 
-```bash
-python patchwise_astar.py --input path/to/image --output path/to/result.png
-```
+run Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding.ipynb
 
-This runs segmentation and detection over each patch, merges results, and computes a path along roads while avoiding detected people.
+This runs segmentation and detection by dividing the image into a 10x10 grid for more accurate segmentation, merges results, and computes a path along roads while avoiding detected obstacles.
 
 ---
 
