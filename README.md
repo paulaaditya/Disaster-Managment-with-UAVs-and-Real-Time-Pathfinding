@@ -1,3 +1,5 @@
+![result_KTest_01](https://github.com/user-attachments/assets/b4ce7c97-e644-4445-8375-eaf366e3fab8)
+![KTest_04](https://github.com/user-attachments/assets/9e154540-022a-4b11-aa78-bd3aa0d9ea75)
 # Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding
 
 This project focuses on **autonomous navigation using aerial imagery**, combining **object detection** and **semantic segmentation** to generate road-aware paths while avoiding obstacles such as humans. The approach uses:
@@ -102,11 +104,11 @@ This runs segmentation and detection by dividing the image into a 10x10 grid for
 <p float="left">
   <div align="center">
     <h4>Original Image</h4>
-    <img src="https://github.com/user-attachments/assets/439a21cf-816a-453b-9a9f-3ab8df147805" width="45%" />
+    <img src="https://github.com/user-attachments/assets/ea1b159b-03d8-4cc3-aa70-fa5a0dac5aeb" width="45%" />
   </div>
   <div align="center">
     <h4>Road Mask + Objects Detected + Path</h4>
-    <img src= "https://github.com/user-attachments/assets/0d489eab-2e8c-452e-b9f6-3cef18754356" width="45%" />
+    <img src= "https://github.com/user-attachments/assets/420aba93-dbce-431e-8a20-70f7ed746700" width="45%" />
   </div>
 </p>
 
