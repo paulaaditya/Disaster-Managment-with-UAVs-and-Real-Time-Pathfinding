@@ -99,6 +99,16 @@ run Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding.ipynb
 This runs segmentation and detection by dividing the image into a 10x10 grid for more accurate segmentation, merges results, and computes a path along roads while avoiding detected obstacles.
 
 ---
+<p float="left">
+  <div align="center">
+    <h4>Original Image</h4>
+    <img src="https://github.com/user-attachments/assets/439a21cf-816a-453b-9a9f-3ab8df147805" width="45%" />
+  </div>
+  <div align="center">
+    <h4>Road Mask + Objects Detected + Path</h4>
+    <img src= "https://github.com/user-attachments/assets/0d489eab-2e8c-452e-b9f6-3cef18754356" width="45%" />
+  </div>
+</p>
 
 ## 🗾 Citation & Acknowledgements
 
@@ -125,4 +135,3 @@ If you use this work or dataset, please cite:
 - The segmentation masks were preprocessed by identifying pinkish roads `(255, 105, 180)` and mapping them to YOLO format
 - A\* pathfinder prioritizes roads and avoids obstacles, leveraging detection results
 - If dataset license requires academic use only, ensure you adhere to that in all deployments
-
