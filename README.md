@@ -94,7 +94,7 @@ Run yolo-segmentation-train.ipynb
 
 ### 3. **Pathfinding Pipeline**
 
-run Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding.ipynb
+Run Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding.ipynb
 
 This runs segmentation and detection by dividing the image into a 10x10 grid for more accurate segmentation, merges results, and computes a path along roads while avoiding detected obstacles.
 
