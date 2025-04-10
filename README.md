@@ -84,15 +84,13 @@ Training and inference were performed on the following hardware:
 
 ## 🚀 Usage
 
-### 1. **Training**
+### 1. **Convert Road Masks to YOLO Format**
 
-run yolo-segmentation-train.ipynb
+Run convert-masks-to-yolo.py
 
-### 2. **Convert Road Masks to YOLO Format**
+### 2. **Training**
 
-run convert-masks-to-yolo.py
-
-> Make sure `road` class is index 0 in your segmentation mask and that colors are converted accurately.
+Run yolo-segmentation-train.ipynb
 
 ### 3. **Pathfinding Pipeline**
 
