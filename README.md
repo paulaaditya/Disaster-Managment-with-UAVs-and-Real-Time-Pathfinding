@@ -1,5 +1,3 @@
-![result_KTest_01](https://github.com/user-attachments/assets/b4ce7c97-e644-4445-8375-eaf366e3fab8)
-![KTest_04](https://github.com/user-attachments/assets/9e154540-022a-4b11-aa78-bd3aa0d9ea75)
 # Disaster-Managment-with-UAVs-and-Real-Time-Pathfinding
 
 This project focuses on **autonomous navigation using aerial imagery**, combining **object detection** and **semantic segmentation** to generate road-aware paths while avoiding obstacles such as humans. The approach uses:
