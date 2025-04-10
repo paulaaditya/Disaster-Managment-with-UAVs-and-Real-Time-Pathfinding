@@ -4,7 +4,7 @@ import numpy as np
 from glob import glob 
  
 # Define paths 
-dataset_path = r"C:\Users\adity\OneDrive\Desktop\Desktop\College\Semester 2\Elements of Computing System 2\roaddataset7" 
+dataset_path = 'path\to\road\segmentation\dataset'
 output_label_path = os.path.join(dataset_path, "labels") 
 os.makedirs(output_label_path, exist_ok=True) 
  
