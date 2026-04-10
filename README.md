@@ -9,7 +9,7 @@ This project focuses on **autonomous navigation using aerial imagery**, combinin
 
 ---
 
-## 🔍 Objective
+## Objective
 
 Design an autonomous routing system that:
 
@@ -19,7 +19,7 @@ Design an autonomous routing system that:
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - **Patch-wise Inference**: Divides aerial images into a 10x10 grid for scalable inference
 - **YOLOv8**: Used for both segmentation and detection
@@ -31,7 +31,7 @@ Design an autonomous routing system that:
 
 ## 🗂 Datasets Used
 
-### 🚀 **Road Segmentation**  
+### **Road Segmentation**  
 **Dataset**: [HD Maps Dataset](https://www.dlr.de/en/eoc/about-us/remote-sensing-technology-institute/photogrammetry-and-image-analysis/public-datasets/hd-maps)  
 **Source**: German Aerospace Center (DLR)  
 **Reference**:  
@@ -44,14 +44,14 @@ Used for **training road segmentation models**. The dataset provides aerial imag
 
 ---
 
-### 🔥 **Object Detection**  
+### **Object Detection**  
 **Dataset**: [HIT-UAV Infrared-Thermal Dataset](https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset)  
 **Description**: Infrared UAV dataset for human/object detection  
 Used to train the YOLOv8 detection model to **identify people and obstacles** from thermal drone images.
 
 ---
 
-## 🧰 Dependencies
+## Dependencies
 
 Make sure your environment includes:
 
@@ -82,7 +82,7 @@ Training and inference were performed on the following hardware:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. **Convert Road Masks to YOLO Format**
 
@@ -130,7 +130,7 @@ If you use this work or dataset, please cite:
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The segmentation masks were preprocessed by identifying pinkish roads `(255, 105, 180)` and mapping them to YOLO format
 - A\* pathfinder prioritizes roads and avoids obstacles, leveraging detection results
