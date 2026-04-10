@@ -29,7 +29,7 @@ Design an autonomous routing system that:
 
 ---
 
-## 🗂 Datasets Used
+## Datasets Used
 
 ### **Road Segmentation**  
 **Dataset**: [HD Maps Dataset](https://www.dlr.de/en/eoc/about-us/remote-sensing-technology-institute/photogrammetry-and-image-analysis/public-datasets/hd-maps)  
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Hardware Used
+## Hardware Used
 
 Training and inference were performed on the following hardware:
 
@@ -110,7 +110,7 @@ This runs segmentation and detection by dividing the image into a 10x10 grid for
   </div>
 </p>
 
-## 🗾 Citation & Acknowledgements
+## Citation & Acknowledgements
 
 If you use this work or dataset, please cite:
 
